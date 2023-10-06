@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/layout.astro";
+---
+
+<Layout>
+    <div class="shop">
+        <h1>Shop Sandwich Kits</h1>
+
+        <noscript>
+            <p>
+                JavaScript is required to view this page. Please enable JavaScript in your browser and reload the page.
+            </p>
+        </noscript>
+
+        <div class="products">
+            <p>TODO: list products</p>
+            <p>TODO: show cart</p>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .shop {
+        padding: 3rem 5%;
+    }
+	.products {
+		align-items: flex-start;
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: 1fr 260px;
+		position: relative;
+	}
+</style>
