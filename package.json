@@ -10,6 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^3.2.3"
+    "@nanostores/react": "^0.7.1",
+    "@nanostores/solid": "^0.4.2",
+    "astro": "^3.2.3",
+    "nanostores": "^0.9.3"
   }
 }
