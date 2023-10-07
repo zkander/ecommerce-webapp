@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/layout.astro";
 import ShopItems from "../components/ShopItems.astro";
+import { Cart} from '../components/Cart.tsx';
 ---
 
 <Layout>
@@ -15,7 +16,7 @@ import ShopItems from "../components/ShopItems.astro";
 
         <div class="products">
             <ShopItems/>
-            <p>TODO: show cart</p>
+            <Cart/>
         </div>
     </div>
 </Layout>
